@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Rubik+Vinyl&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  background-image:url(bg.jpg);
+ height: 80vh;
+ position: relative;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: max(1200px,100vw);
+}
+.box{
+  height: 80vh;
+  width: 100%;
+  opacity:0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+  color: white;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  max-width: 60vw;
+  align-content: center;
+}
+nav img{
+  width: 114px;
+  color: red;
+  height:82px;
+  position: relative;
+  z-index: 10;
+}
+nav button{
+  position: relative;
+  z-index: 10;
+  height:32px;
+  margin-top: 10px;
+}
+.hero{
+  color: white;
+  height:100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; 
+position: relative;
+gap: 13px;
+}
+.hero :first-child{
+  font-size: 48px;
+  font-weight: 900;
+}
+.hero:nth-child(2)
+{
+  font-size:24px;
+  font-weight: 600;
+}
+.hero:nth-child(3)
+{
+  font-size:20px;
+  font-weight: 400;
+}
